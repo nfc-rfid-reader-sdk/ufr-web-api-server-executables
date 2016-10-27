@@ -1,0 +1,10 @@
+#my_container {
+     width: 800px;
+     margin: 0 auto;
+     background-color: #f2f2f2;
+}
+ 
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}

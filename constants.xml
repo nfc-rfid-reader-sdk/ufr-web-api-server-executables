@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>conf/eventtype</comment>
+
+    <entry key="LIB_PATH">/lib/</entry><!-- paths for lib -->
+    <entry key="SERVER_PORT">8080</entry>
+    <entry key="DLL_NAME">uFCoder-x86.dll</entry>
+    <entry key="BLOCK_ADDRESS">65</entry>
+    <entry key="RESPONSE_TYPE">RAW</entry><!-- JSON or RAW -->
+</properties>
