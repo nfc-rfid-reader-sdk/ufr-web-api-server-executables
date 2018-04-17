@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
     <title>uFR JavaScript API</title>
     <!-- Latest compiled and minified CSS -->
@@ -26,11 +26,9 @@
         <tr style="border-top:3pt solid darkgrey;">
             <td colspan="4">
                 <label for="server_url">URL : </label>
-                <input id="server_url" type="text" value="http://localhost:8080"></input>
+                <input id="server_url" type="text" value="http://localhost:8080">
 
             </td>
-        </tbody>
-        </tr>
         <tr>
             <td>
                 <button class="btn btn-success" onclick="openPort()">Open port</button>
@@ -69,22 +67,22 @@
             </td>
             <td>
                 <label>address:</label>
-                <input id="block_read_address" type="text" value=""/>
+                <input id="block_read_address" type="text" value="">
             </td>
             <td colspan="1">
                 <label>key :</label>
-                <input style="width:30px;" id="block_read_key1" type="text" value="255"/>
-                <input style="width:30px;" id="block_read_key2" type="text" value="255"/>
-                <input style="width:30px;" id="block_read_key3" type="text" value="255"/>
-                <input style="width:30px;" id="block_read_key4" type="text" value="255"/>
-                <input style="width:30px;" id="block_read_key5" type="text" value="255"/>
-                <input style="width:30px;" id="block_read_key6" type="text" value="255"/>
+                <input style="width:30px;" id="block_read_key1" type="text" value="255">
+                <input style="width:30px;" id="block_read_key2" type="text" value="255">
+                <input style="width:30px;" id="block_read_key3" type="text" value="255">
+                <input style="width:30px;" id="block_read_key4" type="text" value="255">
+                <input style="width:30px;" id="block_read_key5" type="text" value="255">
+                <input style="width:30px;" id="block_read_key6" type="text" value="255">
             </td>
         </tr>
         <tr style="border-bottom:2pt solid darkgrey;">
             <td colspan="4">
                 <label control-label for="block_read_result">Block Read Result:</label>
-                <input type="text" style="width:100%" id="block_read_result" value="" readonly/>
+                <input type="text" style="width:100%" id="block_read_result" value="" readonly>
             </td>
         </tr>
 
@@ -100,22 +98,22 @@
             </td>
             <td>
                 <label>address:</label>
-                <input id="block_write_address" type="text" value=""/>
+                <input id="block_write_address" type="text" value="">
             </td>
             <td colspan="1">
                 <label>key :</label>
-                <input style="width:30px;" id="block_write_key1" type="text" value="255"/>
-                <input style="width:30px;" id="block_write_key2" type="text" value="255"/>
-                <input style="width:30px;" id="block_write_key3" type="text" value="255"/>
-                <input style="width:30px;" id="block_write_key4" type="text" value="255"/>
-                <input style="width:30px;" id="block_write_key5" type="text" value="255"/>
-                <input style="width:30px;" id="block_write_key6" type="text" value="255"/>
+                <input style="width:30px;" id="block_write_key1" type="text" value="255">
+                <input style="width:30px;" id="block_write_key2" type="text" value="255">
+                <input style="width:30px;" id="block_write_key3" type="text" value="255">
+                <input style="width:30px;" id="block_write_key4" type="text" value="255">
+                <input style="width:30px;" id="block_write_key5" type="text" value="255">
+                <input style="width:30px;" id="block_write_key6" type="text" value="255">
             </td>
         </tr>
         <tr style="border-bottom:2pt solid darkgrey;">
             <td colspan="4">
                 <label control-label for="block_read_result">Block Write Data:</label>
-                <input type="text" style="width:100%" id="block_write_data" value=""/>
+                <input type="text" style="width:100%" id="block_write_data" value="">
             </td>
         </tr>
 
@@ -155,7 +153,7 @@
                 <textarea style="width:800px;height:300px; resize: none;" readonly id="res_disp"
                           name="textarea"></textarea>
             </div>
-            <input type="text" style="float:right;font-weight:bold" readonly id="dl_status">
+            <input type="text" id="dl_status" style="float:right;font-weight:bold" readonly>
 
         </td>
         </tfoot>

@@ -202,7 +202,7 @@ function BlockReadPK(){
    var block_address = document.getElementById("block_read_address").value;
 
 
-   if(block_address < 1){
+   if(block_address < 0){
        alert("Invalid block address");
        return;
    }
